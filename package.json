@@ -2,10 +2,7 @@
   "name": "ember-translations",
   "version": "0.0.1",
   "description": "Template and js translations for ember.",
-  "author": {
-    "name": "Loek van Gent",
-    "email": "info@loekvan.gent"
-  },
+  "author": "",
   "contributors": [
     {
       "name": "Matthijs van Henten"
@@ -23,25 +20,20 @@
     "extract-translations": "./bin/extract-translations.js"
   },
   "scripts": {
-    "test": "node tests/scan.js"
-  },
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
     "start": "ember server",
     "build": "ember build",
     "test": "ember try:testall"
   },
+  "directories": {
+    "test": "tests"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/onepercentclub/ember-translations.git"
+    "url": "git+https://github.com/onepercentclub/ember-translations.git"
   },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
-  "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.2",
     "ember-cli": "0.2.7",
@@ -67,7 +59,7 @@
     "translations"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.0.0"
+    "ember-cli-babel": "^5.0.0",
     "async": "^0.9.0",
     "commander": "^2.3.0",
     "glob": "^4.0.5",
@@ -76,6 +68,13 @@
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "readme": "# ember-translations\nTranslation add-on for Ember.\n",
+  "readmeFilename": "README.md",
+  "gitHead": "10036527e702dc2e623c379f4686e7ef522efbc1",
+  "homepage": "https://github.com/onepercentclub/ember-translations#readme",
+  "_id": "ember-translations@0.0.1",
+  "_shasum": "1b75392f346dbda7de13b8130aa7d7f13e7b3e34",
+  "_from": "../../ember-translate",
+  "_resolved": "file:../../ember-translate"
 }
-
